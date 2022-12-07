@@ -1,8 +1,3 @@
-<div align="center">
-<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
-</div>  
-  
-
 ### <div align="center">I'm Lucas, an Front End Developer 👨‍💻 working remotely 🚀</div>  
   
 
@@ -102,6 +97,11 @@
 
 <br/>  
 
+
+## Recent Blog Posts  
+  
+
+<br/>  
 
 <div align="center"><img src="https://spotify-github-profile.vercel.app/api/view?uid=yf3e6q4g4017rkoi5hnot34vw&cover_image=true&theme=default&show_offline=false&background_color=121212" /></div>  
 
