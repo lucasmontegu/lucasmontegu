@@ -1,4 +1,4 @@
-### <div align="center">I'm Lucas, an Front End Developer 👨‍💻 working remotely 🚀</div>  
+### <div align="center">I'm Lucas, an Full Stack Developer with solid skills and majoring in Front End 👨‍💻 working remotely 🚀</div>  
   
 
 - 🧑‍💻 I’m currently working on [Flevo](https://beflevo.com/)  
