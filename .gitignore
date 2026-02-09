@@ -1,5 +1,7 @@
 node_modules
+.next
 .env
+next-env.d.ts
 
 # Lockfiles
 package-lock.json
