@@ -10,25 +10,25 @@ interface ProjectItem {
 
 const projects: ProjectItem[] = [
   {
-    title: "Flevo Platform",
+    title: "Tapi - Voice AI Platform",
     description:
-      "A comprehensive web platform built with modern frontend architecture, focusing on performance, accessibility, and scalable component design.",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "React"],
+      "Built an end-to-end app with Voice AI and payments as a product engineer. Includes authentication, a dashboard, client payment portal, and real-time Voice AI calls via websocket server with Elevenlabs integration.",
+    technologies: ["Next.js", "Vite", "Hono", "GenAI", "Elevenlabs", "WebSockets"],
+    href: "https://www.tapi.ai/",
+    linkLabel: "tapi.ai",
+  },
+  {
+    title: "Flevo - Education Credit Platform",
+    description:
+      "Two customer acquisition funnels with a form builder component based on JSON schema from the backend. Credit administration dashboard with optimized table rendering, filters by query params, and modern UI patterns.",
+    technologies: ["Remix", "Next.js", "tRPC", "shadcn/ui", "Zod"],
     href: "https://beflevo.com/",
     linkLabel: "beflevo.com",
   },
   {
-    title: "Component Library",
+    title: "Personal Site",
     description:
-      "A reusable, design-system-driven component library built with SOLID principles. Includes primitives for forms, layout, navigation, and data display.",
-    technologies: ["React", "Storybook", "TypeScript", "CSS Modules"],
-    href: "https://github.com/lucasmontegu",
-    linkLabel: "GitHub",
-  },
-  {
-    title: "Portfolio v2",
-    description:
-      "This personal site, built as a minimal dark-themed portfolio. Features smooth scrolling, responsive layout, and performant animations.",
+      "This portfolio, built as a minimal site with Geist Mono typography, smooth scrolling, responsive layout, and a clean light theme.",
     technologies: ["Next.js", "Tailwind CSS", "TypeScript"],
     href: "https://github.com/lucasmontegu/lucasmontegu",
     linkLabel: "Source",
@@ -41,7 +41,7 @@ function ProjectCard({ project }: { project: ProjectItem }) {
       href={project.href}
       target="_blank"
       rel="noopener noreferrer"
-      className="group relative flex flex-col gap-1 rounded-lg p-4 -mx-4 transition-all duration-300 hover:bg-card/50 hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg"
+      className="group relative flex flex-col gap-1 rounded-lg p-4 -mx-4 transition-all duration-300 hover:bg-accent/5 hover:shadow-sm"
     >
       <div className="flex flex-col gap-2">
         <h3 className="font-medium leading-snug text-foreground">

@@ -4,18 +4,18 @@
 
 @layer base {
   :root {
-    --background: 222 47% 11%;
-    --foreground: 210 40% 98%;
-    --card: 217 33% 17%;
-    --card-foreground: 210 40% 98%;
-    --muted: 217 33% 17%;
-    --muted-foreground: 215 20% 55%;
-    --accent: 166 72% 57%;
-    --accent-foreground: 222 47% 11%;
-    --border: 217 33% 22%;
-    --ring: 166 72% 57%;
-    --primary: 166 72% 57%;
-    --primary-foreground: 222 47% 11%;
+    --background: 0 0% 100%;
+    --foreground: 224 71% 20%;
+    --card: 220 20% 97%;
+    --card-foreground: 224 71% 20%;
+    --muted: 220 20% 96%;
+    --muted-foreground: 220 10% 46%;
+    --accent: 224 96% 32%;
+    --accent-foreground: 0 0% 100%;
+    --border: 220 15% 90%;
+    --ring: 224 96% 32%;
+    --primary: 224 96% 32%;
+    --primary-foreground: 0 0% 100%;
     --radius: 0.5rem;
   }
 }
@@ -35,8 +35,8 @@ html {
 }
 
 ::selection {
-  background-color: hsl(166 72% 57% / 0.2);
-  color: hsl(166 72% 57%);
+  background-color: hsl(224 96% 32% / 0.15);
+  color: hsl(224 96% 32%);
 }
 
 /* Custom scrollbar */
@@ -45,14 +45,14 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: hsl(222 47% 11%);
+  background: hsl(0 0% 100%);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsl(217 33% 25%);
+  background: hsl(220 15% 82%);
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: hsl(217 33% 35%);
+  background: hsl(220 15% 70%);
 }

@@ -1,25 +1,20 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, JetBrains_Mono } from "next/font/google";
+import { Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
+const geistMono = Geist_Mono({
   subsets: ["latin"],
-  variable: "--font-inter",
-});
-
-const jetbrainsMono = JetBrains_Mono({
-  subsets: ["latin"],
-  variable: "--font-jetbrains-mono",
+  variable: "--font-geist-mono",
 });
 
 export const metadata: Metadata = {
-  title: "Lucas Montegu - Full Stack Developer",
+  title: "Lucas Montegu - Senior Frontend Developer",
   description:
-    "Full Stack Developer specializing in Front End. Building polished, performant web experiences.",
+    "Senior Frontend Developer specializing in React, TypeScript, Next.js. Building polished, performant web experiences with GenAI and modern tooling.",
 };
 
 export const viewport: Viewport = {
-  themeColor: "#0f172a",
+  themeColor: "#ffffff",
 };
 
 export default function RootLayout({
@@ -28,8 +23,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`}>
-      <body className="font-sans antialiased">{children}</body>
+    <html lang="en" className={geistMono.variable}>
+      <body className="font-mono antialiased">{children}</body>
     </html>
   );
 }

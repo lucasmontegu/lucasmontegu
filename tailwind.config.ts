@@ -8,8 +8,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-inter)"],
-        mono: ["var(--font-jetbrains-mono)"],
+        mono: ["var(--font-geist-mono)"],
       },
       colors: {
         background: "hsl(var(--background))",

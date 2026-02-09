@@ -15,13 +15,13 @@ export default function Home() {
           <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[480px] lg:flex-col lg:justify-between lg:py-24">
             <div>
               <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-                Lucas Montegu
+                {'Lucas Montegu'}
               </h1>
-              <h2 className="mt-3 text-lg font-medium text-foreground/80">
-                Full Stack Developer
+              <h2 className="mt-3 text-lg font-medium text-accent">
+                Senior Frontend Developer
               </h2>
               <p className="mt-4 max-w-xs text-muted-foreground leading-relaxed">
-                I build polished, performant digital experiences for the web.
+                Front-end Engineer with 5+ years of experience building performant web products with React, TypeScript, and Next.js.
               </p>
               <div className="mt-12">
                 <Navigation />
@@ -42,13 +42,12 @@ export default function Home() {
 
             <footer className="mt-24 pb-12 text-sm text-muted-foreground">
               <p className="leading-relaxed">
-                Loosely designed in{" "}
-                <span className="text-foreground/70">Figma</span> and built with{" "}
+                Built with{" "}
                 <a
                   href="https://nextjs.org"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-medium text-foreground/70 hover:text-accent transition-colors duration-200"
+                  className="font-medium text-foreground hover:text-accent transition-colors duration-200"
                 >
                   Next.js
                 </a>{" "}
@@ -57,7 +56,7 @@ export default function Home() {
                   href="https://tailwindcss.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-medium text-foreground/70 hover:text-accent transition-colors duration-200"
+                  className="font-medium text-foreground hover:text-accent transition-colors duration-200"
                 >
                   Tailwind CSS
                 </a>
@@ -66,7 +65,7 @@ export default function Home() {
                   href="https://vercel.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-medium text-foreground/70 hover:text-accent transition-colors duration-200"
+                  className="font-medium text-foreground hover:text-accent transition-colors duration-200"
                 >
                   Vercel
                 </a>

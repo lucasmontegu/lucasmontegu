@@ -6,30 +6,28 @@ export function AboutSection() {
       </h2>
       <div className="flex flex-col gap-4">
         <p className="text-muted-foreground leading-relaxed">
-          I'm a developer passionate about crafting polished, high-performance
-          user interfaces that blend thoughtful design with robust engineering.
-          My favorite work lies at the intersection of design and development,
-          creating experiences that look great and are built for scale.
+          Front-end Engineer with over 5 years of experience. Proficient in
+          problem analysis and passionate about continuously learning new
+          technologies like Next.js, GraphQL, AWS, Tailwind, and Remix. I enjoy
+          building products from scratch, including Voice AI integrations,
+          payment portals, and scalable dashboards.
         </p>
         <p className="text-muted-foreground leading-relaxed">
-          Currently, I'm a Full Stack Developer at{" "}
+          Currently, I'm a Senior Frontend Developer at{" "}
           <a
-            href="https://beflevo.com/"
+            href="https://www.tapi.ai/"
             target="_blank"
             rel="noopener noreferrer"
             className="font-medium text-foreground hover:text-accent transition-colors duration-200"
           >
-            Flevo
+            Tapi
           </a>
-          , specializing in front-end architecture. I build and maintain the
-          component systems and interfaces that power the product, focusing on
-          SOLID principles and modern frontend patterns.
+          , where I built an app from scratch for a business vertical as a
+          product engineer, using Vibe Coding to achieve an MVP with Voice AI
+          and payments.
         </p>
         <p className="text-muted-foreground leading-relaxed">
-          When I'm not coding, you'll find me traveling as a digital nomad,
-          learning to skateboard, or chasing waves with a surfboard. I believe
-          the best interfaces are built by people who are curious about the world
-          beyond the screen.
+          {"When I'm not coding, you'll find me traveling as a digital nomad, trekking through new landscapes, or discovering new cultures. I'm passionate about physical activity and have a particular fondness for vegan/vegetarian cuisine."}
         </p>
       </div>
     </section>
