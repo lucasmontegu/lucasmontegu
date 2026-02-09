@@ -18,7 +18,7 @@ const links = [
   },
   {
     label: "Email",
-    href: "mailto:hello@lucasmontegu.com",
+    href: "mailto:lmontegu@gmail.com",
     icon: Mail,
   },
 ];
@@ -32,7 +32,7 @@ export function SocialLinks() {
           href={href}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-muted-foreground transition-colors duration-200 hover:text-foreground"
+          className="text-muted-foreground transition-colors duration-200 hover:text-accent"
           aria-label={label}
         >
           <Icon className="h-5 w-5" />

@@ -18,7 +18,7 @@ export function CursorGlow() {
     <div
       className="pointer-events-none fixed inset-0 z-30 transition-opacity duration-300 lg:block hidden"
       style={{
-        background: `radial-gradient(600px at ${position.x}px ${position.y}px, rgba(29, 78, 216, 0.07), transparent 80%)`,
+        background: `radial-gradient(600px at ${position.x}px ${position.y}px, rgba(3, 50, 160, 0.04), transparent 80%)`,
       }}
       aria-hidden="true"
     />
